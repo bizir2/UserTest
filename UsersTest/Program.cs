@@ -75,6 +75,7 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
+    await scope.ServiceProvider.GetService<MySqlContext>().Database.EnsureCreatedAsync();
     await scope.ServiceProvider.GetService<IUserDbOrCache>().SetAll();
     var serviceProvider = scope.ServiceProvider;
     try

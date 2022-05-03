@@ -20,7 +20,6 @@ namespace UsersTest.Context
         {
             optionsBuilder.UseMySql(_mySqlConnection.ConnectionString,
                 new MySqlServerVersion(new Version(_mySqlConnection.Version)));
-            Database.EnsureCreated();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
