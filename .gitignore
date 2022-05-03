@@ -1,0 +1,22 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.UsersTest.iml
+/modules.xml
+/projectSettingsUpdater.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea
+/UsersTest/.idea
+/UsersTest/obj
+/UsersTest/bin
+/UserTestLibrary/obj
+/UserTestLibrary/bin
+/UserTestConsole/obj
+/UserTestConsole/.idea
+/UserTestConsole/bin

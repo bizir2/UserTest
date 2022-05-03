@@ -1,0 +1,15 @@
+﻿@model UsersTest.Entites.UserDocument
+
+@{
+    ViewBag.Title = Model?.Name ?? "Не найдено";
+}
+
+@if (Model == null)
+{
+    <h2>Пользователь не найден</h2>
+}
+else
+{
+    <h2>@Model.ID</h2>
+    <h2>@Model.Name</h2>
+}
